@@ -6,7 +6,7 @@ import os
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
-from cms.utils.compat.dj import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 from cms.models import CMSPlugin
 
 from . import settings
